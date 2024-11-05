@@ -25,6 +25,5 @@ if [ -f "$DOCROOT/../.mounts" ]; then
   done < $DOCROOT/../.mounts
 fi
 
-
 apachectl start
 tail -f /var/log/apache2/error.log

@@ -45,4 +45,4 @@ RUN ln -s /usr/bin/vim /usr/bin/vi
 
 ADD files/run-httpd.sh /run-httpd.sh
 
-CMD ["sh", "/run-httpd.sh"]
+CMD ["bash", "/run-httpd.sh"]
